@@ -1,0 +1,473 @@
+*{
+    margin:0px;
+    padding:0px;
+}
+
+#Container{
+    width : 100%;
+    /* border : 2px solid black; */
+    height : 589px;
+    
+}
+body{
+    background-color: rgb(41, 37, 37);
+}
+
+.Nbox1{
+    width : 100%;
+    /* border : 3px solid black; */
+    height : 590px;
+    background-image: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)), url("./background.jpg"); 
+    background-position:center;
+    background-repeat: no-repeat;
+    background-size: fill;
+    
+}
+    
+.navbar{
+    width : 100%;   
+    display: flex;
+    height: 60px;
+    /* background-color: rgb(23, 21, 21); */
+}
+#select{
+    width: 130px;
+    height: 35px;
+    margin-left: 500px;
+    margin-top: 10px;
+    background-color: black;
+    color: aliceblue;
+    text-align: center;
+    border-radius: 5px;
+    font-size: medium;
+    font-weight: 700;
+    border-color: grey;
+    
+}
+#select:hover{border-color: white;}
+
+#navrbarlogo{
+    width: 160px;
+    height: 120px;  
+    margin-left: 50px;
+    margin-left: 180px;
+    margin-top: -28px;
+    
+  
+}
+
+#signbtt{
+    margin-left: -6px;
+    width: 100px;
+    height: 35px;
+    margin-top: 10px;
+    border-radius: 5px;
+    font-size: medium;
+    font-weight: 700;
+    color: white;
+    background-color: red;
+    text-decoration: none;
+    
+}
+#signbtt:hover {background-color: rgb(188, 29, 29); ;}
+
+a {
+    text-decoration: none;
+    color: white;
+    
+ }
+ 
+#box1para{
+    text-align: center;
+    margin-top: -390px;
+    font-size: 3rem;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 900
+
+ }
+
+ #para2,#para3{
+    color: white;
+    text-align: center;
+    font-size: 1.5rem;
+    font-family: Arial, Helvetica, sans-serif;
+   
+ }
+ #headerinput{
+    width:360px;
+    margin-left: 360px;
+    
+    padding: 1.2rem;
+    border-radius: 4px;
+    border: none;
+    font-size: large;  
+ }
+
+ #getst{
+    background-color: red;
+    width:160px;
+    padding: 17.5px;
+    border-radius: 4px;
+    border: none; 
+    font-size: large;
+    font-weight: 700; 
+    font-family: Arial, Helvetica, sans-serif;
+ }
+
+#getst:hover {background-color: rgb(188, 29, 29); ;}
+
+
+#content{
+   width:100%;
+   height: 600px;
+   border:2px solid black;
+   margin-top: 5px;
+   background-color: black;
+   display:flex;
+   justify-content: center;
+   align-items: center;
+  
+}
+
+.contbox{
+    width: 50%;
+    height: 400px;
+    /* border: 2px solid white;     */
+}
+
+.contpara{
+    text-align: start;
+    color: white;
+    margin-top: 130px;
+    margin-left: 130px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 3rem;
+    font-weight: 600;
+
+}   
+
+.contpara1{
+    text-align: start;
+    color: white;
+    margin-top: 10px;
+    margin-left: 130px;
+    font-weight: 400;
+    font-size: 1.5rem;
+    font-family: Arial, Helvetica, sans-serif;
+}   
+#imgs{
+    width:110%;
+    margin-top:-400px;
+    margin-left: -96px;
+}
+#vedi{
+ margin-top: 30px;
+}
+
+.contparaa{
+    text-align: start;
+    color: white;
+    margin-top: 100px;
+    margin-left: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 3rem;
+    font-weight: 600;
+
+}   
+
+.contparaa1{
+    text-align: start;
+    color: white;
+    margin-top: 16px;
+    margin-left: 30px;
+    font-weight: 400;
+    font-size: 1.5rem;
+    font-family: Arial, Helvetica, sans-serif;
+}   
+
+
+#image{
+    width: 50%;
+    margin-left: 230px;
+    margin-top: 30px;
+}
+
+.contparaaa{
+    text-align: start;
+    color: white;
+    margin-top: 130px;
+    margin-left: 100px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 3rem;
+    font-weight: 600;
+
+}   
+
+.contparaaa1{
+    text-align: start;
+    color: white;
+    margin-top: 16px;
+    margin-left: 100px;
+    font-weight: 400;
+    font-size: 1.5rem;
+    font-family: Arial, Helvetica, sans-serif;
+}   
+
+#imagee{
+    width: 80%;
+    margin-left: -10px;
+    margin-top: 6px;
+}
+
+#boxes{
+    color: white;
+    font-size: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: -30px;
+    margin-bottom: 30px;
+    font-weight: 900;
+    
+    
+
+}
+
+.drop{
+    width:180%;
+    height:30px;
+    /* border:2px solid white; */
+    margin: 8px;
+    margin-left: -235px;
+    background-color: rgb(43, 43, 43);
+    padding:18px
+    
+    
+}
+.drop:hover{ background-color: rgb(55, 55, 55);}
+ 
+
+
+
+#contents{
+    width:100%;
+    height: 900px;
+    border:2px solid black;
+    margin-top: 5px;
+    background-color: black;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+   
+ }
+.faq{
+    padding: 10px 12%;
+    text-align: center;
+    font-size: 18px;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.faq h2{
+    font-weight: 800;
+    font-size: 35px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.accordian{
+    margin: 60px auto;
+    width: 100%;
+    max-height: 750px;
+    
+}
+
+.accordian li{
+    list-style: none;
+    width: 100%;
+    padding: 5px;
+}
+
+.accordian li label{
+    display:flex;
+    align-items: center;
+    padding: 20px;
+    font-size: 20px;
+    font-weight: 500;
+    background: #303030;
+    margin-bottom: 2px;
+    cursor: pointer;
+    position: relative;
+}
+
+label::after{
+    content: '+';
+    font-size: 34px;
+    position:  absolute;
+    right: 20px;
+    transition: transform 0.3s;
+
+}
+
+input[type = "radio"]{
+ display: none;
+}
+
+.accordian .content{
+   background: #303030;
+   text-align: left;
+   padding: 0 20px;
+   max-height: 0;
+   overflow: hidden;
+   transition: max-height 0.3s, padding 0.3s;
+   
+}
+
+.accordian input[type = "radio"]:checked + label + .content{
+    max-height: 600px;
+    padding: 30px 20px;
+}
+
+  
+.accordian input[type = "radio"]:checked + label::after{
+    transform: rotate(135deg);
+}
+ 
+.accordian li label:hover {
+    background-color: #505050;
+    color: #fff;
+  }
+  
+  .accordian li input[type="radio"]:focus + label {
+    outline: none;
+  }
+  
+
+ #headerinputs{
+    width:350px;
+    background-color:rgb(43, 43, 43);;
+    padding: 16px;
+    border-radius: 4px;
+    border: none;
+    margin-top: -30px;
+    font-size: large;  
+ }
+ 
+
+ #getsts{
+    width:160px;
+    background-color: red; 
+    padding: 15px;
+    border-radius: 4px;
+    border: none; 
+    font-size: large;
+    font-weight: 700; 
+    font-family: Arial, Helvetica, sans-serif;
+ }
+#getsts:hover {background-color: rgb(188, 29, 29); ;}
+
+#footerContent{
+    width:100%;
+    height: 380px;
+    /* border:2px solid  white; */
+    margin-top: 38px;
+    margin-bottom: -146px;
+    background-color: black;
+    display:flex;
+    justify-content: start;
+    align-items: center;
+    
+}
+
+
+#ftids{
+    text-align: center;
+    margin-top: -130px;
+    color: white;
+    font-size: 20px;
+    font-weight: 100;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+.ftid{
+    color: #FFFFFFB3;
+   
+ }
+ .ftid:hover{text-decoration: underline;}
+
+#ftclass1{
+    color: #FFFFFFB3;
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 100px;
+    
+    
+ }
+ #ftsig{
+    color: #FFFFFFB3;
+    text-decoration: none;
+    
+ }
+ #ftsig:hover{text-decoration: underline;}
+
+ .olclass1{
+   margin-left: -130px;
+   margin-top: -10px;
+   font-family: Arial, Helvetica, sans-serif;
+ }
+ .olclass2{
+    margin-left: 180px;
+    margin-top: -10px;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  .olclass3{
+    margin-left: 130px;
+    margin-top: -6px;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+ .olclass4{
+    margin-left: 6px;
+    margin-top: -130px;
+    font-family: Arial, Helvetica, sans-serif;
+ }
+ .olclass{
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 130px; 
+ }
+  
+ .olclass4{
+    width: 100px;
+    height: 40px;
+    margin-left: 116px;
+    margin-top: 60px;
+    color: white;
+    text-align: center;
+    border-radius: 5px;
+    font-size: medium;
+    font-weight: 700;
+    border:1px solid black;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.olclass4:hover{ border-color: white;}
+ #last{
+    color: #FFFFFFB3;
+    margin-left: 123px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: medium;
+    
+}
+ .fa-solid {
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 300;
+    padding-top: 10px;
+    
+ }
+
+ select{
+    background: transparent;
+    color:white;
+    border-color: black;
+    font-family: Arial, Helvetica, sans-serif;
+ }
+ 
+ 

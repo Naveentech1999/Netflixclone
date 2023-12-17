@@ -1,0 +1,227 @@
+*{
+    padding: 0px;
+    margin: 0px;
+     
+}
+
+.login{
+    width: 100%;
+    height: 1190px;
+    /* border: 2px solid black; */
+    background-image:  linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)),url("./sign.jpg");
+    background-position:center;
+    background-repeat: no-repeat;
+    background-size: cover;  
+   
+   
+}
+#navrbarlogo{
+    width: 200px;
+    height: 130px;  
+    margin-left: 50px;
+    
+}
+
+#box{
+    width: 466px;
+    height: 690px;
+    border: 3px solid #000000BF;
+    margin: auto;
+    background-color: rgba(0, 0, 0, 0.5); 
+    margin-top: -30px;
+    border-radius: 0.5rem;
+}
+
+p{
+    color: white;
+    font-weight:bold;
+    font-size:  200%;
+    margin-top: 80px;
+    margin-left: 80px;
+    font-family: Arial, Helvetica, sans-serif;
+     
+}
+
+.forms{
+  width: 60%;
+  height: 38px;
+  padding: 5px;
+  margin-left: 80px;
+  background-color: rgb(72, 67, 67);
+  color: white;
+  border-radius: 0.3rem;
+  border: none;
+  
+}
+
+button{
+    width: 63%;
+    padding: 10px;
+    margin-top: 26px;
+    margin-left: 80px;
+    background-color: red;
+    color: white;
+    border-radius: 0.3rem;
+    font-size:  130%;
+    border: none;
+
+}
+
+button:hover{ background-color: rgb(188, 29, 29); ;}
+
+#rememberMe{
+     margin-left: 80px;
+     color: rgb(151, 145, 145);
+     font-family: Arial, Helvetica, sans-serif;
+     font-weight: 10px;
+     
+     
+}
+
+#help{
+    margin-left: 90px;
+    color: rgb(151, 145, 145);
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 10px;
+
+}
+#help:hover{text-decoration: underline;}
+#spclass1{
+    color: rgb(151, 145, 145);
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 10px;
+    padding: 5px;
+    margin: 100px;
+    margin-left: 80px;
+    
+    
+}
+
+
+#spclass2{
+    color: rgb(151, 145, 145);
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 10px;
+    margin-left: 80px;
+    padding: 5px;
+     
+}   
+
+
+#spclass3{
+    color: rgb(151, 145, 145);
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 10px;
+    
+    
+}
+
+
+
+ #sig{
+    margin-right: 200px;
+    color: white;
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+ }
+ #sig:hover{text-decoration: underline;}
+
+ .pri{
+    color: #0080ff;
+    text-decoration: none;
+   
+ }
+ .pri:hover{text-decoration: underline;}
+
+#spa{
+    width: 300px;
+    height: 200px;
+    margin: auto;
+    text-align: start;
+}
+
+ #footer{
+    width: 100%;
+    height: 300px;
+    /* border: 2px solid black; */
+    background-color: rgba(0, 0, 0, 0.5); 
+    margin-top: 80px;
+    margin-left: -5px;
+    display: flex;
+    flex-wrap:wrap;
+    justify-content: start;
+    align-items: center;
+     
+ }
+
+ #ftclass1{
+    color: rgb(151, 145, 145);
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 10px;
+    margin-left: 123px;
+    margin-bottom: 150px;
+    margin-top: 30px;
+    
+ }
+
+ #ftsig{
+    color: rgb(151, 145, 145);
+    text-decoration: none;
+    
+ }
+ #ftsig:hover{text-decoration: underline;}
+
+ .links{
+    
+    width:80%;
+    height:30px;
+    /* border:2px solid white;  */
+    margin:auto;
+    margin-top:-130px;
+    display:flex;
+    flex-wrap: wrap;
+    
+    
+   
+ }
+ .ftid{
+    margin-right: 5rem;
+    color: rgb(151, 145, 145);
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+ }
+ .ftid:hover{text-decoration: underline;}
+
+ #select{
+    width: 130px;
+    height: 35px;
+    margin-right: 277px;
+    margin-left: 90px;
+    margin-bottom: 60px;
+    background-color: rgb(34, 30, 30);
+    color: white;
+    text-align: center;
+    border-radius: 5px;
+    font-size: medium;
+    font-weight: 700;
+    font-family: Arial, Helvetica, sans-serif;
+}
+ 
+ .ftids{
+    width:20%;
+    /* border:2px solid white; */
+    height:30px;
+    text-align: start;
+    margin-right: 16px;
+     
+
+    
+ }
+ .ftidss{
+    margin-top:16px;
+ }
